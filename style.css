@@ -1,0 +1,168 @@
+/* Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: url('images/sebastian-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #222;
+  transition: background 0.4s, color 0.4s;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  color: #fff;
+  padding: 20px 10%;
+}
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.nav-links a {
+  color: white;
+  font-weight: 500;
+}
+#darkToggle {
+  background: #00aaff;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e1e1e;
+  color: white;
+  padding: 60px 10%;
+}
+.hero-text {
+  max-width: 50%;
+}
+.hero-text h1 {
+  font-size: 3rem;
+}
+.hero-text p {
+  margin: 10px 0;
+}
+.hero-img img {
+  max-width: 600px;
+  border-radius: 20px;
+}
+
+/* Zigzag Sections */
+.zigzag {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 40px 10%;
+  background: rgb(238, 238, 238);
+}
+.zigzag.reverse {
+  flex-direction: row-reverse;
+}
+.zigzag .text {
+  flex: 1;
+}
+.zigzag .image {
+  flex: 1;
+  text-align: center;
+}
+.zigzag .image img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 15px;
+}
+
+/* Projects, Resume, Contact */
+.projects-section,
+.resume-section,
+.contact-section {
+  padding: 40px 10%;
+  background: rgba(34, 32, 32, 0.96);
+  color: white;
+}
+.skills-section ul {
+  list-style: square;
+  padding-left: 20px;
+}
+.project img {
+  margin-top: 10px;
+  max-width: 100%;
+  border-radius: 5px;
+}
+.btn {
+  background: #00aaff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  background: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background: #121212;
+  color: #eee;
+}
+.dark-mode section,
+.dark-mode .zigzag {
+  background: #1e1e1e;
+}
+.dark-mode .navbar {
+  background: #1a1a1a;
+}
+.dark-mode .btn {
+  background: #00c6ff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-text,
+  .hero-img {
+    max-width: 100%;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+  .zigzag,
+  .zigzag.reverse {
+    flex-direction: column;
+  }
+}

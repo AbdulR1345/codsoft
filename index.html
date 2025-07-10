@@ -1,0 +1,97 @@
+<!-- Updated HTML: Zigzag layout + image between About and Skills -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Abdul Rahaman - Developer Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">My Portfolio</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="darkToggle">🌙</button>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-text" data-aos="fade-right">
+      <h1>Abdul Rahaman</h1>
+      <p>Passionate Web Developer & Learner</p>
+      <a href="#contact" class="btn">Hire Me</a>
+    </div>
+    <div class="hero-img" data-aos="fade-left">
+      <img src="D:\portfolio\images\img.jpg" alt="Abdul">
+    </div>
+  </section>
+
+  <!-- Zigzag About Section -->
+  <section id="about" class="zigzag" data-aos="fade-up">
+    <div class="text">
+      <h2>About Me</h2>
+      <p>Hi, I'm Abdul Rahaman — a passionate and curious web developer and tech enthusiast. I love building clean, responsive, and user-friendly websites. Currently, I'm sharpening my skills through real-world projects and internships, while constantly learning modern web technologies like HTML, CSS, JavaScript, and more. My goal is to become a top-tier developer and contribute to meaningful digital experiences. Let’s connect and create something amazing!</p>
+    </div>
+    <div class="image">
+      <img src="D:\portfolio\images\img.jpg" alt="About Abdul">
+    </div>
+  </section>
+
+  <!-- Zigzag Skills Section -->
+  <section id="skills" class="zigzag reverse" data-aos="fade-up">
+    <div class="text">
+      <h2>Skills</h2>
+      <ul>
+        <li>Languages: Python, C, Java and JavaScript (Beginner)</li>
+        <li>Tools: Canva, Figma, StarUML, VS Code</li>
+        <li>JavaScript Basics</li>
+        <li>Git & GitHub</li>
+        <li>Relational Database: MySQL</li>
+        <li>Soft Skills: Problem Solving, Critical Thinking, Time Management, Team Collaboration</li>
+      </ul>
+    </div>
+    <div class="image">
+      <img src="D:\portfolio\images\img.jpg" alt="Skills Abdul">
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects-section" data-aos="user-friendly">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <h3>Online Banking System using StarUML</h3>
+      <h3>UiPath Birthday Bot</h3>
+    </div>
+  </section>
+
+  <section id="resume" class="resume-section" data-aos="fade-up">
+    <h2>My Resume</h2>
+    <a href="Resume.pdf" class="btn" download>View Resume</a>
+  </section>
+
+  <section id="contact" class="contact-section" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:abdulrahaman4027@gmail.com">abdulrahaman4027@gmail.com</a></p>
+    <p>Phone: +91 96296 90594</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Abdul Rahaman. All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    document.getElementById("darkToggle").addEventListener("click", () => {
+      document.body.classList.toggle("dark-mode");
+    });
+  </script>
+</body>
+</html>
