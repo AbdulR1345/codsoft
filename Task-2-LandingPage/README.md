@@ -23,7 +23,7 @@ This is the second task of the **CodSoft Web Development Internship** — a full
 ## 🖥️ Screenshots
 
 ### 💡 Hero + Features
-![Hero Section](https://via.placeholder.com/600x300?text=Hero+Section+Screenshot)
+![Hero Section]("D:\landing page\codsoft\Task-2-LandingPage\hero section screenshot.png")
 
 ### 📞 Contact CTA
 ![Contact CTA](https://via.placeholder.com/600x200?text=Contact+Section+Screenshot)
