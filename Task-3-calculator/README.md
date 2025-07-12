@@ -29,7 +29,7 @@ It performs standard arithmetic operations like addition, subtraction, multiplic
 
 ## 🚀 Live Demo
 
-[Click here to view the live site](https://your-netlify-link.netlify.app)
+[Click here to view the live site](clinquant-pithivier-77c420.netlify.app)
 
 ---
 
