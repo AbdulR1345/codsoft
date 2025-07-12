@@ -12,6 +12,11 @@ This is the second task of the **CodSoft Web Development Internship** — a full
 - Consistent styling using CSS only (no frameworks)
 
 ## 📁 Folder Structure
+## 🚀 Live Demo
+
+[Click here to view the live site](https://dashing-banoffee-b9fb16.netlify.app/)
+
+---
 
 
 ## 💻 Tech Used
