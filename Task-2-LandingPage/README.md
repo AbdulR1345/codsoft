@@ -32,7 +32,7 @@ This is the second task of the **CodSoft Web Development Internship** — a full
 
 **Abdul Rahaman**  
 Computer Science Engineering Student  
-[LinkedIn](www.linkedin.com/in/abdul-rahaman-14b183320) 
+[LinkedIn](https://www.linkedin.com/in/abdul-rahaman-14b183320/) 
 
 ---
 
