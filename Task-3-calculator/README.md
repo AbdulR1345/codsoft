@@ -20,9 +20,7 @@ It performs standard arithmetic operations like addition, subtraction, multiplic
 
 | Light Mode | Dark Mode |
 |------------|-----------|
-| ![Light Mode](images/light.png) | ![Dark Mode](images/dark.png) |
-
-> You can replace the `images/light.png` and `images/dark.png` with your actual screenshot paths.
+| ![Light Mode](https://github.com/AbdulR1345/codsoft/blob/main/Task-3-calculator/Light.png?raw=true) | ![Dark Mode](https://github.com/AbdulR1345/codsoft/blob/main/Task-3-calculator/Dark.png?raw=true) |
 
 ---
 
