@@ -33,8 +33,6 @@ It performs standard arithmetic operations like addition, subtraction, multiplic
 
 [Click here to view the live site](https://your-netlify-link.netlify.app)
 
-> You can deploy it on Netlify or GitHub Pages and update this link.
-
 ---
 
 ## 📚 Technologies Used
@@ -48,7 +46,8 @@ It performs standard arithmetic operations like addition, subtraction, multiplic
 ## 🙋‍♂️ Author
 
 **Abdul Rahaman**  
-🌐 [LinkedIn]()  
+🌐 [LinkedIn](https://www.linkedin.com/in/abdul-rahaman-14b183320/) 
+
 📧 rahamanrahi13@gmail.com
 
 ---
