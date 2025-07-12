@@ -1,9 +1,6 @@
 # 💼 Personal Portfolio Website
 
-This is my **Task 1** for the **Codsoft Web Development Internship**.
-
-## 🔗 Live Demo
-👉 [View Portfolio](https://abdulr1345.github.io/codsoft/)
+This is my **Task 1** for the **Codsoft Web Development Internship**
 
 ## 🛠️ Tech Stack
 - HTML5
