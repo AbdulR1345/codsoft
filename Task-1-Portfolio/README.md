@@ -1,6 +1,11 @@
 # 💼 Personal Portfolio Website
 
 This is my **Task 1** for the **Codsoft Web Development Internship**
+## 🚀 Live Demo
+
+[Click here to view the live site](https://earnest-crostata-0b99ab.netlify.app/)
+
+---
 
 ## 🛠️ Tech Stack
 - HTML5
